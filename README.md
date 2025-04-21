@@ -1,1 +1,1 @@
-# protectai_layer_demos
+# protectAI_MCP_examples
