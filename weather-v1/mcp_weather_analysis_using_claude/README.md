@@ -1,10 +1,17 @@
 # Weather Analysis Tool with Claude
 
-An interactive tool that combines the National Weather Service (NWS) API with Claude's analytical capabilities to provide insightful weather analysis.
+An interactive demo that combines the National Weather Service (NWS) API tool call with Anthropic Claude and logging as Actions to Layer sessions.
 
-## Overview
+## How It Works
 
-This tool fetches weather data from the NWS API and uses Claude 3.7 Sonnet to analyze it from different perspectives, providing users with actionable insights about weather conditions.
+1. The tool fetches weather data from the NWS API
+2. Data is formatted and sent to Claude via the Anthropic API
+3. Claude analyzes the data based on the selected perspective
+4. Results are displayed in the interface
+5. All interactions are logged to Layer with tool-specific attributes:
+   - Weather API calls are logged with source URLs and parameters
+   - Claude analyses are logged with model information and response details
+   - Session tracking enables complete interaction history
 
 ## Features
 
@@ -13,6 +20,11 @@ This tool fetches weather data from the NWS API and uses Claude 3.7 Sonnet to an
   - General weather summary
   - Travel recommendations
   - Emergency preparedness guidance
+- **Interactive UI**: User-friendly Gradio interface for inputting locations and viewing analyses
+- **Layer Logging**: Comprehensive logging of AI interactions:
+  - Logs Claude API calls as completion_output actions
+  - Records tool usage with detailed attributes
+  - Enables monitoring and analysis of AI system behavior
 - **Interactive UI**: User-friendly Gradio interface for inputting locations and viewing analyses
 
 ## Prerequisites
@@ -50,12 +62,6 @@ This tool fetches weather data from the NWS API and uses Claude 3.7 Sonnet to an
 - San Francisco, CA: 37.7749, -122.4194
 - Chicago, IL: 41.8781, -87.6298
 
-## How It Works
-
-1. The tool fetches weather data from the NWS API
-2. Data is formatted and sent to Claude via the Anthropic API
-3. Claude analyzes the data based on the selected perspective
-4. Results are displayed in the interface
 
 ## License
 

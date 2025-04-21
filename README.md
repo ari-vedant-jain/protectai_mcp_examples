@@ -4,7 +4,7 @@ A collection of example applications demonstrating the use of Model Context Prot
 
 ## Overview
 
-This repository contains practical examples of how to build applications using the Model Context Protocol (MCP), a standard for communication between AI models and external tools/services. Each example demonstrates different capabilities and integration patterns.
+This repository contains practical examples of how to secure applications built using the Model Context Protocol (MCP) using Protect AI's Layer platform. Each example demonstrates different capabilities and integration patterns.
 
 ## Examples
 
@@ -30,21 +30,14 @@ Each example contains its own README with specific setup instructions. Generally
 - Python 3.10+ (3.12 recommended)
 - MCP SDK 1.6.0+
 - Various dependencies as specified in each example
+- Layer SDK fork (included in this repo)
 
 ## Prerequisites
 
 - Basic understanding of Python
 - Familiarity with AI models like Claude
 - API keys for relevant services (e.g., Anthropic API key for Claude examples)
-
-## Contributing
-
-Contributions are welcome! If you have an example you'd like to add:
-
-1. Fork the repository
-2. Create a new directory for your example
-3. Add comprehensive documentation
-4. Submit a pull request
+- Layer account and client secret for logging
 
 ## License
 
@@ -55,3 +48,4 @@ MIT
 - [Model Context Protocol Documentation](https://modelcontextprotocol.io)
 - [Anthropic Claude Documentation](https://docs.anthropic.com)
 - [National Weather Service API](https://api.weather.gov)
+- [Protect AI Layer](https://protectai.com/layer)
