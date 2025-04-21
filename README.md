@@ -21,6 +21,7 @@ The repository currently includes the following weather-related examples:
    - Interactive Gradio UI for inputting locations
    - Multiple analysis perspectives (general, travel, emergency)
    - Demonstrates AI-powered insights from raw weather data
+   - [View Notebook](weather-v1/mcp_weather_analysis_using_claude/weather_analysis_tool_claude.ipynb) - Interactive tool combining NWS API with Claude for insightful weather analysis
 
 ## Getting Started
 

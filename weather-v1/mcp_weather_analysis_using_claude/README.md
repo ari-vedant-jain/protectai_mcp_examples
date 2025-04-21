@@ -28,12 +28,12 @@ This tool fetches weather data from the NWS API and uses Claude 3.7 Sonnet to an
    ```
    pip install httpx nest_asyncio anthropic ipywidgets gradio
    ```
-3. Create a `secrets.json` file with your Anthropic API key:
+3. Create a `secrets.json` file with your Anthropic API key and Layer Client Secrethere:
    ```json
    {
-     "ANTHROPIC_API_KEY": "your_api_key_here"
+     "ANTHROPIC_API_KEY": "your_api_key_here",
+     "LAYER_DEMO_AUTH_CLIENT_SECRET": "your_layer_secret_here"
    }
-   ```
 
 ## Usage
 
