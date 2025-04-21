@@ -1,6 +1,6 @@
 # ProtectAI MCP Examples
 
-A collection of example applications demonstrating the use of Model Context Protocol (MCP) with various AI models and services.
+A collection of example applications demonstrating securing Model Context Protocol (MCP) with various Protect AI's security platform.
 
 ## Overview
 
